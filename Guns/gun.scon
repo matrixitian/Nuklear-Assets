@@ -1,0 +1,1045 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 200,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": 6
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.2,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 232.95391178016132,
+										"abs_y": -22.14895984668171,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "famas_barrel",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.25,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 406,
+										"abs_y": -17,
+										"file": 6,
+										"folder": 1,
+										"id": 1,
+										"key": 0,
+										"name": "famas_muzzle",
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.8,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 163,
+										"abs_y": 59,
+										"file": 4,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "famas_mag",
+										"parent": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.3,
+										"abs_pivot_y": 0.4,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -149,
+										"abs_y": 34.00000000000001,
+										"file": 0,
+										"folder": 1,
+										"id": 3,
+										"key": 0,
+										"name": "famas_body",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "3"
+									}
+								]
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 1,
+										"scale_x": 1.0000000000000002,
+										"x": -36.64044943820224,
+										"y": -9.2808988764045
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_body",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 1.210294168921223,
+										"file": 1,
+										"folder": 1,
+										"scale_x": 1.0000000000000002,
+										"x": 8.239794879575417,
+										"y": -0.14894215693794882
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_barrel",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.14490260373327,
+										"file": 6,
+										"folder": 1,
+										"x": -1.9130856010857726,
+										"y": -3.196524744806552
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_muzzle",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 101.59217541029108,
+										"file": 4,
+										"folder": 1,
+										"scale_x": 1.0000000000000002,
+										"x": 13.78188956508958,
+										"y": -2.8276114830674968
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_mag",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"scale_x": 0.9999999999999999,
+										"x": -112.35955056179776,
+										"y": -24.719101123595507
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "bone_000",
+							"obj": 4,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 358.7897058310788,
+										"scale_x": 0.9999999999999999,
+										"x": 337.07865168539337,
+										"y": 47.19101123595506
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "bone_001",
+							"obj": 5,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 2.0653915651879515,
+										"scale_x": 1.0000000000000002,
+										"x": 183.15267365882275,
+										"y": 1.6217302220135899
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "bone_002",
+							"obj": 6,
+							"object_type": "bone"
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"bone": {
+										"angle": 258.4078245897089,
+										"scale_x": 0.9999999999999999,
+										"x": 280.8988764044945,
+										"y": -21.348314606741575
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "bone_003",
+							"obj": 7,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"gline": [],
+					"id": 1,
+					"interval": 100,
+					"length": 200,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": 6
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.2,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 232.95391178016132,
+										"abs_y": -22.14895984668171,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "famas_barrel",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.25,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 406,
+										"abs_y": -17,
+										"file": 6,
+										"folder": 1,
+										"id": 1,
+										"key": 0,
+										"name": "famas_muzzle",
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.8,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 163,
+										"abs_y": 59,
+										"file": 4,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "famas_mag",
+										"parent": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.3,
+										"abs_pivot_y": 0.4,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -149,
+										"abs_y": 34.00000000000001,
+										"file": 0,
+										"folder": 1,
+										"id": 3,
+										"key": 0,
+										"name": "famas_body",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": 6
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "3"
+									}
+								],
+								"time": 32
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 5
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": 6
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "3"
+									}
+								],
+								"time": 52
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": 6
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "3"
+									}
+								],
+								"time": 76
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 5
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": 6
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": 7
+									}
+								],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "2",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 3,
+										"timeline": "3",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "3"
+									}
+								],
+								"time": 116
+							}
+						]
+					},
+					"name": "shoot",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 1,
+										"scale_x": 1.0000000000000002,
+										"x": -36.64044943820224,
+										"y": -9.2808988764045
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_body",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 1.210294168921223,
+										"file": 1,
+										"folder": 1,
+										"scale_x": 1.0000000000000002,
+										"x": 8.239794879575417,
+										"y": -0.14894215693794882
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_barrel",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 359.14490260373327,
+										"file": 6,
+										"folder": 1,
+										"x": -1.9130856010857726,
+										"y": -3.196524744806552
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_muzzle",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 101.59217541029108,
+										"file": 4,
+										"folder": 1,
+										"scale_x": 1.0000000000000002,
+										"x": 13.78188956508958,
+										"y": -2.8276114830674968
+									},
+									"spin": 0
+								}
+							],
+							"name": "famas_mag",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"scale_x": 0.9999999999999999,
+										"x": -112.35955056179776,
+										"y": -24.719101123595507
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 9.372092708579089,
+										"scale_x": 0.9999999999999999,
+										"x": -112.35955056179776,
+										"y": -24.719101123595507
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 52
+								},
+								{
+									"bone": {
+										"angle": 8.739377589012577,
+										"scale_x": 0.9999999999999999,
+										"x": -144.94382022471916,
+										"y": -31.460674157303373
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 116
+								}
+							],
+							"name": "bone_000",
+							"obj": 4,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"bone": {
+										"angle": 358.7897058310788,
+										"scale_x": 0.9999999999999999,
+										"x": 337.07865168539337,
+										"y": 47.19101123595506
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 358.7897058310788,
+										"scale_x": 0.9999999999999999,
+										"x": 305.61797752808997,
+										"y": 47.191011235955045
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 76
+								}
+							],
+							"name": "bone_001",
+							"obj": 5,
+							"object_type": "bone"
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 2.0653915651879515,
+										"scale_x": 1.0000000000000002,
+										"x": 183.15267365882275,
+										"y": 1.6217302220135899
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 2.0653915651878947,
+										"scale_x": 1.0000000000000002,
+										"x": 136.00190389408772,
+										"y": 1.6420144740458704
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 32
+								}
+							],
+							"name": "bone_002",
+							"obj": 6,
+							"object_type": "bone"
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"bone": {
+										"angle": 258.4078245897089,
+										"scale_x": 0.9999999999999999,
+										"x": 280.8988764044945,
+										"y": -21.348314606741575
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "bone_003",
+							"obj": 7,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "famas",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "famas_famas_body",
+					"realname": "famas_body",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "famas_famas_barrel",
+					"realname": "famas_barrel",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 1
+						}
+					],
+					"name": "famas_famas_muzzle",
+					"realname": "famas_muzzle",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 1
+						}
+					],
+					"name": "famas_famas_mag",
+					"realname": "famas_mag",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "famas_bone_000",
+					"realname": "bone_000",
+					"type": "bone",
+					"w": 315.7303370786517
+				},
+				{
+					"h": 10,
+					"name": "famas_bone_001",
+					"realname": "bone_001",
+					"type": "bone",
+					"w": 159.5861647252692
+				},
+				{
+					"h": 10,
+					"name": "famas_bone_002",
+					"realname": "bone_002",
+					"type": "bone",
+					"w": 75.28928345056615
+				},
+				{
+					"h": 10,
+					"name": "famas_bone_003",
+					"realname": "bone_003",
+					"type": "bone",
+					"w": 89.46529994334558
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 332,
+					"id": 0,
+					"name": "Famas/famas_body.png",
+					"pivot_x": 0.3,
+					"pivot_y": 0.4,
+					"width": 692
+				},
+				{
+					"height": 304,
+					"id": 1,
+					"name": "Famas/famas_body_haze.png",
+					"pivot_x": 0.3,
+					"pivot_y": 0.4,
+					"width": 614
+				},
+				{
+					"height": 98,
+					"id": 2,
+					"name": "Famas/famas_barrel.png",
+					"pivot_x": 0.09999999999999999,
+					"pivot_y": 0.5,
+					"width": 240
+				},
+				{
+					"height": 88,
+					"id": 3,
+					"name": "Famas/famas_barrel_haze.png",
+					"pivot_x": 0.1,
+					"pivot_y": 0.5,
+					"width": 236
+				},
+				{
+					"height": 126,
+					"id": 4,
+					"name": "Famas/famas_mag.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.8,
+					"width": 152
+				},
+				{
+					"height": 130,
+					"id": 5,
+					"name": "Famas/famas_mag_haze.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.8,
+					"width": 134
+				},
+				{
+					"height": 102,
+					"id": 6,
+					"name": "Famas/famas_muzzle.png",
+					"pivot_x": 0.25,
+					"pivot_y": 0.5,
+					"width": 112
+				},
+				{
+					"height": 98,
+					"id": 7,
+					"name": "Famas/famas_muzzle_haze.png",
+					"pivot_x": 0.25,
+					"pivot_y": 0.5,
+					"width": 106
+				},
+				{
+					"height": 120,
+					"id": 8,
+					"name": "Famas/silencer.png",
+					"pivot_x": 0.25,
+					"pivot_y": 0.5,
+					"width": 156
+				}
+			],
+			"id": 0,
+			"name": "Famas"
+		},
+		{
+			"file": [
+				{
+					"height": 332,
+					"id": 0,
+					"name": "famas/famas_body.png",
+					"pivot_x": 0.3,
+					"pivot_y": 0.4,
+					"width": 692
+				},
+				{
+					"height": 98,
+					"id": 1,
+					"name": "famas/famas_barrel.png",
+					"pivot_x": 0.2,
+					"pivot_y": 0.5,
+					"width": 240
+				},
+				{
+					"height": 88,
+					"id": 2,
+					"name": "famas/famas_barrel_haze.png",
+					"pivot_x": 0.2,
+					"pivot_y": 0.5,
+					"width": 236
+				},
+				{
+					"height": 304,
+					"id": 3,
+					"name": "famas/famas_body_haze.png",
+					"pivot_x": 0.3,
+					"pivot_y": 0.4,
+					"width": 614
+				},
+				{
+					"height": 126,
+					"id": 4,
+					"name": "famas/famas_mag.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.8,
+					"width": 152
+				},
+				{
+					"height": 130,
+					"id": 5,
+					"name": "famas/famas_mag_haze.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.8,
+					"width": 134
+				},
+				{
+					"height": 102,
+					"id": 6,
+					"name": "famas/famas_muzzle.png",
+					"pivot_x": 0.25,
+					"pivot_y": 0.5,
+					"width": 112
+				},
+				{
+					"height": 98,
+					"id": 7,
+					"name": "famas/famas_muzzle_haze.png",
+					"pivot_x": 0.25,
+					"pivot_y": 0.5,
+					"width": 106
+				},
+				{
+					"height": 120,
+					"id": 8,
+					"name": "famas/silencer.png",
+					"pivot_x": 0.2,
+					"pivot_y": 0.5,
+					"width": 156
+				}
+			],
+			"id": 1,
+			"name": "famas"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r9",
+	"scon_version": "1.0"
+}
