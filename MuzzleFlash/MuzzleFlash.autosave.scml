@@ -14,68 +14,68 @@
         <file id="10" name="smoke_cloud_small_three.png" width="10" height="13" pivot_x="0" pivot_y="1"/>
         <file id="11" name="smoke_cloud_small_two.png" width="8" height="6" pivot_x="0" pivot_y="1"/>
     </folder>
-    <entity id="0" name="entity_000">
-        <obj_info name="entity_000_short_flame" realname="short_flame" type="sprite">
+    <entity id="0" name="muzzle_flash">
+        <obj_info name="muzzle_flash_short_flame" realname="short_flame" type="sprite">
             <frames>
                 <i folder="0" file="1"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_muzzle_aura" realname="muzzle_aura" type="sprite">
+        <obj_info name="muzzle_flash_muzzle_aura" realname="muzzle_aura" type="sprite">
             <frames>
                 <i folder="0" file="0"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_muzzle_flash" realname="muzzle_flash" type="sprite">
+        <obj_info name="muzzle_flash_muzzle_flash" realname="muzzle_flash" type="sprite">
             <frames>
                 <i folder="0" file="2"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_gleam_five" realname="gleam_five" type="sprite">
+        <obj_info name="muzzle_flash_gleam_five" realname="gleam_five" type="sprite">
             <frames>
                 <i folder="0" file="3"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_gleam_four" realname="gleam_four" type="sprite">
+        <obj_info name="muzzle_flash_gleam_four" realname="gleam_four" type="sprite">
             <frames>
                 <i folder="0" file="4"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_gleam_one" realname="gleam_one" type="sprite">
+        <obj_info name="muzzle_flash_gleam_one" realname="gleam_one" type="sprite">
             <frames>
                 <i folder="0" file="5"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_gleam_three" realname="gleam_three" type="sprite">
+        <obj_info name="muzzle_flash_gleam_three" realname="gleam_three" type="sprite">
             <frames>
                 <i folder="0" file="6"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_gleam_two" realname="gleam_two" type="sprite">
+        <obj_info name="muzzle_flash_gleam_two" realname="gleam_two" type="sprite">
             <frames>
                 <i folder="0" file="7"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_smoke_cloud_big" realname="smoke_cloud_big" type="sprite">
+        <obj_info name="muzzle_flash_smoke_cloud_big" realname="smoke_cloud_big" type="sprite">
             <frames>
                 <i folder="0" file="8"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_smoke_cloud_small_one" realname="smoke_cloud_small_one" type="sprite">
+        <obj_info name="muzzle_flash_smoke_cloud_small_one" realname="smoke_cloud_small_one" type="sprite">
             <frames>
                 <i folder="0" file="9"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_smoke_cloud_small_three" realname="smoke_cloud_small_three" type="sprite">
+        <obj_info name="muzzle_flash_smoke_cloud_small_three" realname="smoke_cloud_small_three" type="sprite">
             <frames>
                 <i folder="0" file="10"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_smoke_cloud_small_two" realname="smoke_cloud_small_two" type="sprite">
+        <obj_info name="muzzle_flash_smoke_cloud_small_two" realname="smoke_cloud_small_two" type="sprite">
             <frames>
                 <i folder="0" file="11"/>
             </frames>
         </obj_info>
-        <animation id="0" name="NewAnimation" length="700" interval="100">
+        <animation id="0" name="shoot" length="700" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" name="short_flame" folder="0" file="1" abs_x="-29.295017" abs_y="31.74257" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
