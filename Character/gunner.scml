@@ -19,11 +19,11 @@
         <file id="15" name="head.png" width="150" height="231" pivot_x="0" pivot_y="1"/>
     </folder>
     <folder id="1" name="Guns/Famas/Default">
-        <file id="0" name="Guns/Famas/Default/slice5.png" width="314" height="155" pivot_x="0.363057" pivot_y="0.516129"/>
-        <file id="1" name="Guns/Famas/Default/slice4.png" width="65" height="58" pivot_x="0.538462" pivot_y="0.775862"/>
-        <file id="2" name="Guns/Famas/Default/slice3.png" width="54" height="44" pivot_x="0.203704" pivot_y="0.545455"/>
-        <file id="3" name="Guns/Famas/Default/slice2.png" width="109" height="45" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="4" name="Guns/Famas/Default/slice1.png" width="78" height="59" pivot_x="0.153846" pivot_y="0.508475"/>
+        <file id="0" name="Guns/Famas/Default/slice4.png" width="65" height="58" pivot_x="0.538462" pivot_y="0.775862"/>
+        <file id="1" name="Guns/Famas/Default/slice3.png" width="54" height="44" pivot_x="0.203704" pivot_y="0.545455"/>
+        <file id="2" name="Guns/Famas/Default/slice2.png" width="109" height="45" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="Guns/Famas/Default/slice1.png" width="78" height="59" pivot_x="0.153846" pivot_y="0.508475"/>
+        <file id="4" name="Guns/Famas/Default/famas_body.png" width="314" height="155" pivot_x="0.359873" pivot_y="0.496774"/>
     </folder>
     <entity id="0" name="entity_000">
         <obj_info name="entity_000_slice1" realname="slice1" type="sprite">
@@ -116,24 +116,24 @@
                 <i folder="0" file="7"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_slice5_000" realname="slice5_000" type="sprite">
-            <frames>
-                <i folder="1" file="0"/>
-            </frames>
-        </obj_info>
         <obj_info name="entity_000_slice2" realname="slice2" type="sprite">
-            <frames>
-                <i folder="1" file="3"/>
-            </frames>
-        </obj_info>
-        <obj_info name="entity_000_slice3_000" realname="slice3_000" type="sprite">
             <frames>
                 <i folder="1" file="2"/>
             </frames>
         </obj_info>
-        <obj_info name="entity_000_slice4_000" realname="slice4_000" type="sprite">
+        <obj_info name="entity_000_slice3_000" realname="slice3_000" type="sprite">
             <frames>
                 <i folder="1" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_slice4_000" realname="slice4_000" type="sprite">
+            <frames>
+                <i folder="1" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="entity_000_famas_body" realname="famas_body" type="sprite">
+            <frames>
+                <i folder="1" file="4"/>
             </frames>
         </obj_info>
         <animation id="0" name="NewAnimation" length="1000" interval="100">
@@ -157,10 +157,10 @@
                     <object_ref id="15" name="slice7_000" folder="0" file="14" abs_x="-2.820686" abs_y="-214.896615" abs_angle="16.92118" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="13" key="0" z_index="15"/>
                     <object_ref id="16" name="slice8_000" folder="0" file="13" abs_x="-13.67232" abs_y="-159.147937" abs_angle="16.92118" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="14" key="0" z_index="16"/>
                     <object_ref id="17" name="slice9_000" folder="0" file="12" abs_x="1.623985" abs_y="-77.797241" abs_angle="16.92118" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="12" key="0" z_index="17"/>
-                    <object_ref id="18" name="slice2" folder="1" file="3" abs_x="662.5" abs_y="-84.5" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="19" key="0" z_index="18"/>
-                    <object_ref id="19" name="slice3_000" folder="1" file="2" abs_x="752.520694" abs_y="-86.035523" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="20" key="0" z_index="19"/>
-                    <object_ref id="20" name="slice4_000" folder="1" file="1" abs_x="611.99997" abs_y="-135" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="21" key="0" z_index="20"/>
-                    <object_ref id="21" name="slice5_000" folder="1" file="0" abs_x="407.510169" abs_y="-36.563758" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="18" key="0" z_index="21"/>
+                    <object_ref id="18" name="slice2" folder="1" file="2" abs_x="662.5" abs_y="-84.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="18" key="0" z_index="18"/>
+                    <object_ref id="19" name="slice3_000" folder="1" file="1" abs_x="752.520694" abs_y="-86.035523" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="19" key="0" z_index="19"/>
+                    <object_ref id="20" name="slice4_000" folder="1" file="0" abs_x="611.99997" abs_y="-134.999996" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="20" key="0" z_index="20"/>
+                    <object_ref id="21" name="famas_body" folder="1" file="4" abs_x="406" abs_y="-37" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="21" key="0" z_index="21"/>
                 </key>
             </mainline>
             <timeline id="0" obj="0" name="slice1">
@@ -253,24 +253,24 @@
                     <object folder="0" file="7" x="259.471938" y="-21.672285" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="18" obj="18" name="slice5_000">
+            <timeline id="18" obj="18" name="slice2">
                 <key id="0" spin="0">
-                    <object folder="1" file="0" x="521.510067" y="-111.563758" angle="0"/>
+                    <object folder="1" file="2" x="717" y="-107" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="19" obj="19" name="slice2">
+            <timeline id="19" obj="19" name="slice3_000">
                 <key id="0" spin="0">
-                    <object folder="1" file="3" x="717" y="-107"/>
+                    <object folder="1" file="1" x="763.52071" y="-106.035503" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="20" obj="20" name="slice3_000">
+            <timeline id="20" obj="20" name="slice4_000">
                 <key id="0" spin="0">
-                    <object folder="1" file="2" x="763.52071" y="-106.035503"/>
+                    <object folder="1" file="0" x="647" y="-148" angle="0"/>
                 </key>
             </timeline>
-            <timeline id="21" obj="21" name="slice4_000">
+            <timeline id="21" obj="21" name="famas_body">
                 <key id="0" spin="0">
-                    <object folder="1" file="1" x="647" y="-148"/>
+                    <object folder="1" file="4" x="519.000122" y="-115"/>
                 </key>
             </timeline>
         </animation>
