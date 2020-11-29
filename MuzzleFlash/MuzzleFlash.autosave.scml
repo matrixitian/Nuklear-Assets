@@ -13,6 +13,7 @@
         <file id="9" name="smoke_cloud_small_one.png" width="8" height="9" pivot_x="0" pivot_y="1"/>
         <file id="10" name="smoke_cloud_small_three.png" width="10" height="13" pivot_x="0" pivot_y="1"/>
         <file id="11" name="smoke_cloud_small_two.png" width="8" height="6" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="mflash_bg.png" width="244" height="199" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="muzzle_flash">
         <obj_info name="muzzle_flash_short_flame" realname="short_flame" type="sprite">

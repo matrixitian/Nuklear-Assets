@@ -2,25 +2,15 @@
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
     <folder id="0" name="Famas">
         <file id="0" name="Famas/famas_body.png" width="597" height="289" pivot_x="0.3" pivot_y="0.4"/>
-        <file id="1" name="Famas/famas_body_haze.png" width="597" height="289" pivot_x="0.3" pivot_y="0.4"/>
-        <file id="2" name="Famas/famas_barrel.png" width="207" height="62" pivot_x="0.1" pivot_y="0.5"/>
-        <file id="3" name="Famas/famas_barrel_haze.png" width="207" height="62" pivot_x="0.1" pivot_y="0.5"/>
-        <file id="4" name="Famas/famas_mag.png" width="120" height="98" pivot_x="0.5" pivot_y="0.8"/>
-        <file id="5" name="Famas/famas_mag_haze.png" width="120" height="97" pivot_x="0.5" pivot_y="0.8"/>
-        <file id="6" name="Famas/famas_muzzle.png" width="90" height="77" pivot_x="0.25" pivot_y="0.5"/>
-        <file id="7" name="Famas/famas_muzzle_haze.png" width="89" height="77" pivot_x="0.25" pivot_y="0.5"/>
-        <file id="8" name="Famas/silencer.png" width="132" height="91" pivot_x="0.25" pivot_y="0.5"/>
+        <file id="1" name="Famas/famas_barrel.png" width="207" height="62" pivot_x="0.1" pivot_y="0.5"/>
+        <file id="2" name="Famas/famas_mag.png" width="120" height="98" pivot_x="0.5" pivot_y="0.8"/>
+        <file id="3" name="Famas/famas_muzzle.png" width="90" height="77" pivot_x="0.25" pivot_y="0.5"/>
     </folder>
     <folder id="1" name="famas">
         <file id="0" name="famas/famas_body.png" width="597" height="289" pivot_x="0.3" pivot_y="0.4"/>
-        <file id="1" name="famas/famas_barrel.png" width="207" height="62" pivot_x="0.2" pivot_y="0.5"/>
-        <file id="2" name="famas/famas_barrel_haze.png" width="207" height="62" pivot_x="0.2" pivot_y="0.5"/>
-        <file id="3" name="famas/famas_body_haze.png" width="597" height="289" pivot_x="0.3" pivot_y="0.4"/>
-        <file id="4" name="famas/famas_mag.png" width="120" height="98" pivot_x="0.5" pivot_y="0.8"/>
-        <file id="5" name="famas/famas_mag_haze.png" width="120" height="97" pivot_x="0.5" pivot_y="0.8"/>
-        <file id="6" name="famas/famas_muzzle.png" width="90" height="77" pivot_x="0.25" pivot_y="0.5"/>
-        <file id="7" name="famas/famas_muzzle_haze.png" width="89" height="77" pivot_x="0.25" pivot_y="0.5"/>
-        <file id="8" name="famas/silencer.png" width="132" height="91" pivot_x="0.2" pivot_y="0.5"/>
+        <file id="1" name="famas/famas_barrel.png" width="207" height="62" pivot_x="0.294686" pivot_y="0.629032"/>
+        <file id="2" name="famas/famas_mag.png" width="120" height="98" pivot_x="0.5" pivot_y="0.8"/>
+        <file id="3" name="famas/famas_muzzle.png" width="90" height="77" pivot_x="0.25" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="famas">
         <obj_info name="famas_famas_body" realname="famas_body" type="sprite">
@@ -35,28 +25,30 @@
         </obj_info>
         <obj_info name="famas_famas_muzzle" realname="famas_muzzle" type="sprite">
             <frames>
-                <i folder="1" file="6"/>
+                <i folder="1" file="3"/>
             </frames>
         </obj_info>
         <obj_info name="famas_famas_mag" realname="famas_mag" type="sprite">
             <frames>
-                <i folder="1" file="4"/>
+                <i folder="1" file="2"/>
             </frames>
         </obj_info>
         <obj_info name="famas_bone_000" realname="bone_000" type="bone" w="315.73" h="10"/>
         <obj_info name="famas_bone_001" realname="bone_001" type="bone" w="159.586" h="10"/>
         <obj_info name="famas_bone_002" realname="bone_002" type="bone" w="75.2893" h="10"/>
         <obj_info name="famas_bone_003" realname="bone_003" type="bone" w="89.4653" h="10"/>
-        <animation id="0" name="idle" length="200" interval="100">
+        <obj_info name="famas_bone_004" realname="bone_004" type="bone" w="315.73" h="10"/>
+        <animation id="0" name="famas_idle" length="200" interval="100">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="4" key="0"/>
                     <bone_ref id="1" parent="0" timeline="5" key="0"/>
                     <bone_ref id="2" parent="1" timeline="6" key="0"/>
                     <bone_ref id="3" parent="0" timeline="7" key="0"/>
-                    <object_ref id="0" parent="1" name="famas_barrel" folder="1" file="1" abs_x="191.553912" abs_y="53.14896" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
-                    <object_ref id="1" parent="2" name="famas_muzzle" folder="1" file="6" abs_x="379.761681" abs_y="59.238317" abs_angle="0.000001" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="1"/>
-                    <object_ref id="2" parent="3" name="famas_mag" folder="1" file="4" abs_x="103" abs_y="-39.400001" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="2"/>
+                    <bone_ref id="4" timeline="8" key="0"/>
+                    <object_ref id="0" parent="1" name="famas_barrel" folder="1" file="1" abs_x="172.187715" abs_y="45.402497" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" parent="2" name="famas_muzzle" folder="1" file="3" abs_x="360.395484" abs_y="51.491838" abs_angle="0.000001" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" parent="3" name="famas_mag" folder="1" file="2" abs_x="103" abs_y="-39.400001" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="2"/>
                     <object_ref id="3" parent="0" name="famas_body" folder="1" file="0" abs_x="-328.1" abs_y="139.4" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="3"/>
                 </key>
             </mainline>
@@ -67,17 +59,17 @@
             </timeline>
             <timeline id="1" obj="1" name="famas_barrel">
                 <key id="0" spin="0">
-                    <object folder="1" file="1" x="8.239795" y="-0.148942" angle="1.210294"/>
+                    <object folder="1" file="1" x="27.666448" y="8.263265" angle="1.210294"/>
                 </key>
             </timeline>
             <timeline id="2" obj="2" name="famas_muzzle">
                 <key id="0" spin="0">
-                    <object folder="1" file="6" x="-1.913086" y="-3.196525" angle="359.144903"/>
+                    <object folder="1" file="3" x="-1.913086" y="-3.196525" angle="359.144903"/>
                 </key>
             </timeline>
             <timeline id="3" obj="3" name="famas_mag">
                 <key id="0" spin="0">
-                    <object folder="1" file="4" x="13.78189" y="-2.827611" angle="101.592175"/>
+                    <object folder="1" file="2" x="13.78189" y="-2.827611" angle="101.592175"/>
                 </key>
             </timeline>
             <timeline id="4" obj="4" name="bone_000" object_type="bone">
@@ -87,7 +79,7 @@
             </timeline>
             <timeline id="5" obj="5" name="bone_001" object_type="bone">
                 <key id="0" spin="0">
-                    <bone x="337.078652" y="47.191011" angle="358.789706"/>
+                    <bone x="317.712455" y="39.444532" angle="358.789706"/>
                 </key>
             </timeline>
             <timeline id="6" obj="6" name="bone_002" object_type="bone">
@@ -100,40 +92,25 @@
                     <bone x="280.898876" y="-21.348315" angle="258.407825"/>
                 </key>
             </timeline>
+            <timeline id="8" obj="8" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-112.359551" y="-24.719101" angle="0"/>
+                </key>
+            </timeline>
         </animation>
-        <animation id="1" name="shoot" length="200" interval="100">
+        <animation id="1" name="famas_shoot" length="200" interval="100">
             <mainline>
                 <key id="0">
                     <bone_ref id="0" timeline="4" key="0"/>
                     <bone_ref id="1" parent="0" timeline="5" key="0"/>
                     <bone_ref id="2" parent="1" timeline="6" key="0"/>
                     <bone_ref id="3" parent="0" timeline="7" key="0"/>
-                    <object_ref id="0" parent="1" name="famas_barrel" folder="1" file="1" abs_x="191.553912" abs_y="53.14896" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
-                    <object_ref id="1" parent="2" name="famas_muzzle" folder="1" file="6" abs_x="383.499999" abs_y="59.238317" abs_angle="0.000001" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="1"/>
-                    <object_ref id="2" parent="3" name="famas_mag" folder="1" file="4" abs_x="103" abs_y="-39.400001" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="2"/>
-                    <object_ref id="3" parent="0" name="famas_body" folder="1" file="0" abs_x="-328.1" abs_y="139.4" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="3"/>
+                    <object_ref id="0" parent="1" name="famas_barrel" folder="1" file="1" abs_x="170.418136" abs_y="46.391441" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" parent="2" name="famas_muzzle" folder="1" file="3" abs_x="362.364223" abs_y="52.480783" abs_angle="0.000001" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" parent="3" name="famas_mag" folder="1" file="2" abs_x="103.359551" abs_y="-38.6809" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" parent="0" name="famas_body" folder="1" file="0" abs_x="-327.740449" abs_y="140.119101" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="3"/>
                 </key>
                 <key id="1" time="32">
-                    <bone_ref id="0" timeline="4" key="0"/>
-                    <bone_ref id="1" parent="0" timeline="5" key="0"/>
-                    <bone_ref id="2" parent="1" timeline="6" key="1"/>
-                    <bone_ref id="3" parent="0" timeline="7" key="0"/>
-                    <object_ref id="0" parent="1" timeline="1" key="0" z_index="0"/>
-                    <object_ref id="1" parent="2" timeline="2" key="0" z_index="1"/>
-                    <object_ref id="2" parent="3" timeline="3" key="0" z_index="2"/>
-                    <object_ref id="3" parent="0" timeline="0" key="0" z_index="3"/>
-                </key>
-                <key id="2" time="52">
-                    <bone_ref id="0" timeline="4" key="1"/>
-                    <bone_ref id="1" parent="0" timeline="5" key="0"/>
-                    <bone_ref id="2" parent="1" timeline="6" key="1"/>
-                    <bone_ref id="3" parent="0" timeline="7" key="0"/>
-                    <object_ref id="0" parent="1" timeline="1" key="0" z_index="0"/>
-                    <object_ref id="1" parent="2" timeline="2" key="0" z_index="1"/>
-                    <object_ref id="2" parent="3" timeline="3" key="0" z_index="2"/>
-                    <object_ref id="3" parent="0" timeline="0" key="0" z_index="3"/>
-                </key>
-                <key id="3" time="76">
                     <bone_ref id="0" timeline="4" key="1"/>
                     <bone_ref id="1" parent="0" timeline="5" key="1"/>
                     <bone_ref id="2" parent="1" timeline="6" key="1"/>
@@ -143,9 +120,9 @@
                     <object_ref id="2" parent="3" timeline="3" key="0" z_index="2"/>
                     <object_ref id="3" parent="0" timeline="0" key="0" z_index="3"/>
                 </key>
-                <key id="4" time="116">
+                <key id="2" time="56">
                     <bone_ref id="0" timeline="4" key="2"/>
-                    <bone_ref id="1" parent="0" timeline="5" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="5" key="2"/>
                     <bone_ref id="2" parent="1" timeline="6" key="1"/>
                     <bone_ref id="3" parent="0" timeline="7" key="0"/>
                     <object_ref id="0" parent="1" timeline="1" key="0" z_index="0"/>
@@ -161,36 +138,39 @@
             </timeline>
             <timeline id="1" obj="1" name="famas_barrel">
                 <key id="0" spin="0">
-                    <object folder="1" file="1" x="8.239795" y="-0.148942" angle="1.210294"/>
+                    <object folder="1" file="1" x="27.666448" y="8.263265" angle="1.210294"/>
                 </key>
             </timeline>
             <timeline id="2" obj="2" name="famas_muzzle">
                 <key id="0" spin="0">
-                    <object folder="1" file="6" x="-1.913086" y="-3.196525" angle="359.144903"/>
+                    <object folder="1" file="3" x="-1.913086" y="-3.196525" angle="359.144903"/>
                 </key>
             </timeline>
             <timeline id="3" obj="3" name="famas_mag">
                 <key id="0" spin="0">
-                    <object folder="1" file="4" x="13.78189" y="-2.827611" angle="101.592175"/>
+                    <object folder="1" file="2" x="13.78189" y="-2.827611" angle="101.592175"/>
                 </key>
             </timeline>
             <timeline id="4" obj="4" name="bone_000" object_type="bone">
                 <key id="0">
-                    <bone x="-112.359551" y="-24.719101" angle="0"/>
+                    <bone x="-112" y="-24" angle="0"/>
                 </key>
-                <key id="1" time="52" spin="-1">
-                    <bone x="-112.359551" y="-24.719101" angle="9.372093"/>
+                <key id="1" time="32" spin="-1">
+                    <bone x="-174.692884" y="-41.655609" angle="13.485308"/>
                 </key>
-                <key id="2" time="116" spin="-1">
-                    <bone x="-144.94382" y="-31.460674" angle="8.739378"/>
+                <key id="2" time="56" spin="-1">
+                    <bone x="-193.736758" y="-44.133379" angle="11.558835"/>
                 </key>
             </timeline>
             <timeline id="5" obj="5" name="bone_001" object_type="bone">
                 <key id="0" spin="0">
-                    <bone x="337.078652" y="47.191011" angle="358.789706"/>
+                    <bone x="315.583325" y="39.714375" angle="358.789706"/>
                 </key>
-                <key id="1" time="76" spin="0">
-                    <bone x="305.617978" y="47.191011" angle="358.789706"/>
+                <key id="1" time="32" spin="0">
+                    <bone x="311.011722" y="39.143038" angle="358.789706"/>
+                </key>
+                <key id="2" time="56" spin="0">
+                    <bone x="284.210512" y="39.736161" angle="358.789706"/>
                 </key>
             </timeline>
             <timeline id="6" obj="6" name="bone_002" object_type="bone">
