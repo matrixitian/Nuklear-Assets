@@ -13,7 +13,6 @@
         <file id="9" name="smoke_cloud_small_one.png" width="8" height="9" pivot_x="0" pivot_y="1"/>
         <file id="10" name="smoke_cloud_small_three.png" width="10" height="13" pivot_x="0" pivot_y="1"/>
         <file id="11" name="smoke_cloud_small_two.png" width="8" height="6" pivot_x="0" pivot_y="1"/>
-        <file id="12" name="mflash_bg.png" width="244" height="199" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="muzzle_flash">
         <obj_info name="muzzle_flash_short_flame" realname="short_flame" type="sprite">
@@ -219,13 +218,13 @@
             </timeline>
             <timeline id="2" obj="2" name="muzzle_flash">
                 <key id="0" time="20" spin="0">
-                    <object folder="0" file="2" x="-6.818182" y="1.948052" angle="0"/>
+                    <object folder="0" file="2" x="-6.818182" y="1.948052" angle="0" scale_x="1.771123" scale_y="1.472311"/>
                 </key>
                 <key id="1" time="41" spin="0">
-                    <object folder="0" file="2" x="-6.818182" y="1.948052" angle="0" scale_x="0.626432" scale_y="0.733682"/>
+                    <object folder="0" file="2" x="-6.818182" y="1.948052" angle="0" scale_x="1.080927" scale_y="1.004779"/>
                 </key>
                 <key id="2" time="62" spin="0">
-                    <object folder="0" file="2" x="-6.818182" y="1.948052" angle="0" scale_x="0.663023" scale_y="0.759768"/>
+                    <object folder="0" file="2" x="-6.818182" y="1.948052" angle="0" scale_x="0.942602" scale_y="0.952831"/>
                 </key>
                 <key id="3" time="100" spin="0">
                     <object folder="0" file="2" x="24.181818" y="1.948052" angle="0" scale_x="0.687701" scale_y="0.77736" a="0"/>
